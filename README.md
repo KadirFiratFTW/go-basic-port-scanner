@@ -19,4 +19,4 @@
     ./BasicPortScanner or ./BasicPortScanner.exe
  ```
 
-![go-basic-port-scanner](https://pasteboard.co/m08czQeybok5.png)
+![go-basic-port-scanner](./screenshot.png)
