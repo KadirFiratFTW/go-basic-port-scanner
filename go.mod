@@ -1,4 +1,4 @@
-module BasicPortProber
+module BasicPortScanner
 
 go 1.17
 
