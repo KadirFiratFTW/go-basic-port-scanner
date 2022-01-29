@@ -182,7 +182,7 @@ func getDisplayOption() bool{
 	for  {
 		fmt.Print("Display only open ports (y (default) / n): ");
 		input.Scan()
-		if input.Text() == "" {
+		if input.Text() == "" || input.Text() == "n" || input.Text() == "n" {
 			break;
 		}
 
@@ -191,10 +191,6 @@ func getDisplayOption() bool{
 			continue;
 		}
 
-		if input.Text() == "n" || input.Text() == "n" {
-			option = false;
-			break;
-		}
 		break;
 	}
 	return option
